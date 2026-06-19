@@ -1,2 +1,3 @@
 # autosuggest
-verufying my git set-up:)
+verifying my git set-up:)
+
