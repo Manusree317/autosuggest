@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>autosuggest</title>
+    <title>Being Infinity</title>
     <link rel="stylesheet" href="../css/index.css">
-
 </head>
 <body>
     <div class="navbar">
@@ -16,19 +14,11 @@
         <a href="/pages/gitpulse.html">GitPulse</a>
         <a href="/pages/autosuggest.html">Autosuggest</a>
     </div> 
-    <div class="card">
-        <img id= "userImage" 
-        src="../images/image.png" alt="User image">
-        <h1 id="userName">Jane Doe</h1>
-        <p id="userGender">Female</p>
-        <button onclick="toggle()">
-            Toggle
-        </button>
-
+    <span class="gear">&#x2699;</span>
+    <span class="pill">&#9679; online | &#x23F1; -ms</span>
+    <h1>Being Infinity</h1>
+    <p style="text-align: center;">One million phrases.Four alogorithms.Prefix Based Autosuggest</p>
+    <div class="search-container">&#128269;
+        <input type="text" id="searchInput" placeholder="Search...">
+        <ul id="suggestionsList"></ul>
     </div>
-
-    
-    <script src="../js/index.js"></script>
-    <script src="../js/toggle.js"></script>
-</body>
-</html>
