@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Being Infinity</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/autosuggest.css">
 </head>
 <body>
     <div class="navbar">
@@ -15,10 +16,17 @@
         <a href="/pages/autosuggest.html">Autosuggest</a>
     </div> 
     <span class="gear">&#x2699;</span>
-    <span class="pill">&#9679; online | &#x23F1; -ms</span>
-    <h1>Being Infinity</h1>
+    <div class="right-corner">
+        <span class="pill">&#9679; online | &#x23F1; -ms</span>
+    </div>
+    <h1>
+        <span style="color: rgb(125, 24, 125);">Being</span>
+        <span style="color: rgb(18, 10, 18);">Infinity</span>
+    </h1>
     <p style="text-align: center;">One million phrases.Four alogorithms.Prefix Based Autosuggest</p>
-    <div class="search-container">&#128269;
-        <input type="text" id="searchInput" placeholder="Search...">
-        <ul id="suggestionsList"></ul>
+    <div class="search-container">
+        <span class="lens">&#128269;</span><input type="text" id="searchInput" placeholder="       Search...">
+        <div id="search-suggestions">
+            
+        </div>
     </div>
